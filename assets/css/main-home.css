@@ -7,9 +7,9 @@
  .spchung{
 	 background: #F6F6F7;
  }
- 
+
  .col-md-4{visibility: visible;}
- .trai{  
+ .trai{
 	 padding-left: 20px;
 	 height: 800px;
 	 background:#F2F2F2;
@@ -18,18 +18,18 @@
  .trai img{
 	 width: 5%;
  }
- 
+
  .trai{
-	 padding-top: 20px;	
+	 padding-top: 20px;
 	 margin-top: 10px;
-	 
+
  }
  .trai ul{
 	 margin: 0 20px;
  }
  .trai ul li ul li{
 	margin: 0 20px;
-	list-style: circle;	
+	list-style: circle;
 }
 .trai ul li ul li a{
 	font-size: 18px;
@@ -74,13 +74,13 @@
 	 background:#5A8171 ;
 	 height: 4px;
 	 margin: -25px 20px 0px 180px ;
-	 
+
  }
  .phai li a{
 	 font-size: 35px;
 	 margin-left: 20px;
 	 color: #5A8171;
-	 
+
  }
  .phai li{
 	 margin-top: 10px;
@@ -94,7 +94,7 @@
 .video img{
 	float:left;
 	list-style: none;
-	
+
 }
 .video1 img{
 	width: 100%;
@@ -112,10 +112,10 @@
 .video1{
 	margin-top: 17px;
 	position: relative;
-	
+
 }
 .video1 .play_video ul li{
-	float: left;	
+	float: left;
 	font-size: 12px;
 	margin-left: 10px;
 }
@@ -128,15 +128,15 @@
 	text-align: center;
 	position: absolute;
 	bottom:-20px;
-	
+
 	opacity: 0;
 	transition: all ease 0.5s;
 	color: aliceblue;
-	
+
 }
 .video1:hover .play_video{
 	opacity: 0.8;
-	bottom:0px;	
+	bottom:0px;
 	left: 0px;
 }
 /*daugia*/
@@ -203,29 +203,6 @@
 	font-size: 12px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -----didong--------------------------------- */
  @media (max-width:768px){
 	.trai{
@@ -247,7 +224,7 @@
 	.phai li a{
 		font-size: 25px;
 		padding-bottom: 10px;
-		
+
 	}
 
 	.daugach{
@@ -265,6 +242,10 @@
     width: 50%;
 		background: #CC382F;
 		margin: -10px 0 10px 0;
-	}
+  }
+  .video1 .play_video{
+    opacity:unset;
+  }
 }
- 
+
+/* Custom CSS */
