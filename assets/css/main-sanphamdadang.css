@@ -1,0 +1,134 @@
+ /*Khung dưới menu*/
+
+
+ .main{
+	 background: #FFFFFF;
+ }
+ 
+ .col-md-4{visibility: visible;}
+ .trai{  
+	 padding-left: 20px;
+	 height: 800px;
+	 background:#F2F2F2;
+	 margin: 0 -10px 0 0;
+ } 
+ .trai{
+	 padding-top: 20px;	
+	 margin-top: 10px;
+	 
+ }
+
+ /*------bangbenphai----*/
+ .phai{
+	float: right;
+	margin: 10px 0;
+	background: #CCCCCC;
+}
+.phai1{
+	background:#CCCCCC;
+	
+	padding:10px;
+}
+.phai1 h3{
+	color:#4F796B;
+	font-size: 35px;
+}
+.phai1 .daugach{
+	height: 3px;
+	background: #C2000B;
+	margin-left: 380px;
+}
+
+.phai1 .phai3{
+	
+	background: #F6F6F7;
+	padding: 10px;
+}
+.phai3 .danganh{
+	height: 400px;
+	background: #FFFFFF;
+}
+.phai3 .danganh .daugach2{
+	height: 8px;
+	background: #C2000B;
+	margin: 0 -10px;
+}
+.phai3 .dangtt h4{
+	font-size: 23px;
+}.phai3 .dangtt ul span{
+	padding: 0 10px;
+}
+.phai3 .dangtt .daugach3{
+	height:2px;
+	background: rgb(151, 1, 11);
+}
+.dangtt .form__field{
+	padding-right: 12px;
+}
+.phai3 .phai2{
+	padding:2px 8px;
+	background: rgb(108, 109, 110);
+	color: white;
+	margin-top:10px;
+}
+.phai2 .form__field{
+	width: 100%;
+	margin-top: 015px;
+	font-size: 18px;
+}
+.danganh .danganh1{
+	padding:10px;
+}
+
+
+
+
+
+
+
+
+/* ----------sp------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----didong--------------------------------- */
+ @media (max-width:768px){
+	.trai{
+		display: none;
+	}
+	.container-fluid .menuan{
+		display:none;
+	}
+	.slider img{width: 90%;
+	column-width: 100%;
+
+	}
+	.timkiem{
+		display: block;
+	}
+
+
+}
+ 
