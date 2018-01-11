@@ -15,9 +15,9 @@ $(document).ready(function () {
   //js cua da dang san pham
   
   $('.trai .dadang').hover(function(){
-    $('.sndg').slideDown(100);
+    $('.sndg').slideDown(300);
   },function(){
-    $('.sndg').slideUp(100);
+    $('.sndg').slideUp(300);
   })
 
 
