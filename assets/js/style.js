@@ -12,7 +12,14 @@ $(document).ready(function () {
     }
   });
 
-  //
+  //js cua da dang san pham
+  
+  $('.trai .dadang').hover(function(){
+    $('.sndg').slideDown(100);
+  },function(){
+    $('.sndg').slideUp(100);
+  })
+
 
   //
 
