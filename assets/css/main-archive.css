@@ -149,7 +149,7 @@
 }
 .video1:hover .play_video{
 	opacity: 0.8;
-	bottom:0px;
+	bottom:-11px;
 	left: 0px;
 }
 /* ----------xemthem------------ */

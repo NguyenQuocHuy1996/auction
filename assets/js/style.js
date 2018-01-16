@@ -14,11 +14,11 @@ $(document).ready(function () {
 
   //js cua da dang san pham
   
-  $('.trai .dadang').hover(function(){
-    $('.sndg').slideDown(300);
-  },function(){
-    $('.sndg').slideUp(300);
-  })
+  // $('.trai .dadang').hover(function(){
+  //   $('.sndg').slideDown(300);
+  // },function(){
+  //   $('.sndg').slideUp(300);
+  // })
 
 
   //js cua loadthem 
@@ -108,3 +108,41 @@ $('.tab a').on('click', function (e) {
   $(target).fadeIn(600);
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$('section.awSlider .carousel').carousel({
+	pause: "hover",
+  interval: 20000
+});
+
+var startImage = $('section.awSlider .item.active > img').attr('src');
+$('section.awSlider').append('<img src="' + startImage + '">');
+
+$('section.awSlider .carousel').on('slid.bs.carousel', function () {
+ var bscn = $(this).find('.item.active > img').attr('src');
+	$('section.awSlider > img').attr('src',bscn);
+});
+
+
+/* 
+Philips ambilight tv
+Üzerine gleince duruyor slide
+*/
