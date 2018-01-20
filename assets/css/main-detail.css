@@ -67,22 +67,24 @@
 }
 
 .phai1 .phai3{
-	
+	margin-top:10px;
 	background: #F6F6F7;
 	padding: 10px;
 }
 .phai3 .danganh{
-	height: 400px;
+	padding-bottom: 30px;
 	background: rgb(255, 255, 255);
 }
 .phai3 .danganh .daugach2{
 	height: 8px;
 	background: #C2000B;
-	margin: 0 -10px;
+	margin: 0 -5px;
 }
 .phai3 .dangtt h4{
 	font-size: 23px;
-}.phai3 .dangtt ul span{
+	
+}
+.phai3 .dangtt ul span{
 	padding: 0 10px;
 }
 .phai3 .dangtt .daugach3{
@@ -179,6 +181,7 @@
 
 
 }
+
  
 
 
@@ -200,18 +203,23 @@
 
   
   .carousel-indicators{
-	  bottom:-38px;
+	  bottom:-20%;
   }
-  
+  .carousel-indicators .active{
+	  background-color: rgb(199, 25, 34);
+  }
+  .carousel-indicators li{
+	border: 1px solid rgb(121, 120, 120);
+  }
 
   
   section.awSlider .carousel{
 	display:table;
 	z-index:2;
 	
-	-moz-box-shadow: 0 0 4px #444;
+	/* -moz-box-shadow: 0 0 4px #444;
 	  -webkit-box-shadow: 0 0 4px #444;
-	  box-shadow: 0 0 15px rgba(1,1,1,.5);
+	  box-shadow: 0 0 15px rgba(1,1,1,.5); */
   }
   
   section.awSlider{
@@ -227,13 +235,13 @@
 	user-select: none;
   }
   
-  section.awSlider:hover > img{
+  /* section.awSlider:hover > img{
 	-ms-transform: scale(1.2);
 	-webkit-transform: scale(1.2);
 	transform: scale(1.2);
 	opacity:1;
   }
-  
+   */
   section.awSlider img{
 	 pointer-events: none;
   }
