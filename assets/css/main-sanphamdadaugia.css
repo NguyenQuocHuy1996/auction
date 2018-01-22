@@ -123,10 +123,11 @@
 }
 .phai3 .sanpham{
 	background: #4F796B;	
-	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.212);	
+	box-shadow: 0 8px 23px 0 rgba(0, 0, 0, 0.8);	
 	
 	padding-bottom: 15px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
+	margin-top:10px;
 }
 .sanpham .hinhspdd,.sanpham .ttspdd{
 	padding: 10px;
@@ -162,21 +163,20 @@
 .ttspdd .sndg ul li a:hover{	
 	color: rgb(243, 245, 139);	
 }
-.ttspdd .btn--primary:hover {
-	background:rgb(150, 42, 42) ;
-	color: #F2F2F2;
-  }
-  .ttspdd .btn--primary:focus{
-	color: #F2F2F2; 
-  }
-  .ttspdd .btn--inside {
-    margin-left: 0px;
+.sanpham .ttspdd .caution img{
+	width: 20%;
+	margin: -22% -15% 4px 72%;
+
 }
+/* ---------------loadthem------------ */
+
+
+/* ---------------loadthem------------ */
+
+
+
 /* -----didong--------------------------------- */
- @media (max-width:768px){
-	.ttspdd .btn--inside {
-		margin-left: -80px;
-	}
+ @media (max-width:767px){
 	.trai{
 		display: none;
 	}
@@ -194,15 +194,19 @@
 		color: white;
 		font-size: 15px;
 	}
-	.sanpham .ttspdd .iconman img {
-		width: 100%;
+	.ttspdd .iconman {
+		padding: 0;
 	}
-	.sndg li{
-		font-size: 15px;
+	.sanpham .hinhspdd, .sanpham .ttspdd {
+		padding: 14px 2px 0px 2px;
 	}
-
+	.sanpham .ttspdd .caution img {
+		width: 52%;
+		margin: -5% -15% 0 8%;
+	}
 
 }
+
  
 
 
