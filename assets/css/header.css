@@ -5,7 +5,7 @@ a{text-decoration: none;}
 a:hover,a:focus,a:visited{text-decoration: none;}
 img{width: 100%;}
 body{
-	background:url('../img/bg-01.png');
+
 	background-size: cover;
 }
 .remove-margin{
@@ -59,7 +59,7 @@ body{
   color: #fff;
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
   border-radius: 2px;
-  padding: 7px 55px;
+  padding: 7px 54px;
 }
 .search img{
 	width: 20px;
@@ -87,7 +87,7 @@ body{
   padding-right:86px;
 }
 .sizechu li a{
-	font-size:28px;
+	font-size: 143%;
 	
 }
 .sizechu li{
@@ -132,6 +132,18 @@ body{
 .signinan{
 	display: none;
 }
+.menuan{
+	background: #362D2C;
+	/* position: fixed; */
+	z-index: 1000000000000000;	
+	padding:8px 0;
+	margin-top: 0;	
+}
+.col-md-12.menuan.remove-margin.affix {
+	top: 0;
+	width:86.8%;
+}
+.col-md-12.menuan.remove-margin.affix.trenthanhsearch  {display: none;}
 
 /* ------hetuser-------- */
 /* ---------------nut bam hien menu tren dt-------------------- */
@@ -196,7 +208,25 @@ display: none;
 		border: none;
 		display: inline;
 	}
+	.menuan{
+		width: 100%;
+		background:#362D2C;
+	}
+
+
 	
+}
+@media (width: 768px){
+	.menuan{
+		width: 97.6%;
+		background:#362D2C;
+	}
+}
+@media (width: 1024px){
+	.menuan{
+		width: 94.7%;
+		background:#362D2C;
+	}
 }
 
 /* ---------------het nut bam hien menu tren dt-------------------- */

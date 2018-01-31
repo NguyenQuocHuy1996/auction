@@ -36,6 +36,7 @@ $(document).ready(function () {
     });
 });
 
+
 $('a[href=#top]').click(function () {
     $('body,html').animate({
         scrollTop: 0
@@ -154,3 +155,14 @@ $('section.awSlider .carousel').on('slid.bs.carousel', function () {
 Philips ambilight tv
 Üzerine gleince duruyor slide
 */
+
+
+
+$('.menuan').affix({
+  offset: {
+    top: 190
+  , bottom: function () {
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
