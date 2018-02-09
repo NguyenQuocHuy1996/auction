@@ -141,7 +141,7 @@ body{
 }
 .col-md-12.menuan.remove-margin.affix {
 	top: 0;
-	width:86.8%;
+	width:87%;
 }
 .col-md-12.menuan.remove-margin.affix.trenthanhsearch  {display: none;}
 
@@ -237,7 +237,7 @@ display: none;
 	}
 	.col-md-12.menuan.remove-margin.affix {
 		top: 0;
-		width: 100%;
+		width: 95%;
 	}
 }
 

@@ -44,6 +44,11 @@
 	list-style: none;
 	list-style-image: url('../img/listyle.png');
 }
+.trai h3 {
+    background: rgb(51, 51, 51);
+    padding: 3%;
+    color: white;
+}
 
  /*------bangbenphai----*/
  .phai{

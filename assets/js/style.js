@@ -161,9 +161,7 @@ Philips ambilight tv
 $('.menuan').affix({
   offset: {
     top: 190
-  , bottom: function () {
-      return (this.bottom = $('.footer').outerHeight(true))
-    }
+  
   }
 })
 

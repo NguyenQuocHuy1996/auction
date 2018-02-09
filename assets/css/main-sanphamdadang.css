@@ -106,9 +106,11 @@
 	
 	padding:10px;
 }
-.phai1 h3{
-	color:#4F796B;
-	font-size: 35px;
+.phai1 h3 {
+    background: rgb(51, 51, 51);
+    color: #ffffff;
+    font-size: 30px;
+    padding: 1%;
 }
 .phai1 .daugach{
 	height: 6px;
